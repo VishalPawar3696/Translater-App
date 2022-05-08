@@ -1,0 +1,166 @@
+/* #main{
+    height: 80%;
+    width: 80%;
+margin-left: 10%;
+} */
+
+
+
+
+
+#container{
+    display: flex;
+    gap: 10px;
+    border: 2px solid gray;
+    padding: 20px;
+    background-color: thistle;
+    
+    justify-content: center;
+
+    
+   
+}
+#navbar{
+    display: flex;
+    font-family: tahoma;
+    font-size:25px;
+    color: rgb(243, 82, 19);
+    background-color: rgb(29, 154, 182);
+    border: 10px ridge slategray;
+    height: 100px;
+    /* justify-content: center; */
+}
+.name{
+    margin-left: 10%;
+
+    
+}
+#logo{
+    /* border: 1px solid ; */
+    
+    border-radius: 10px;
+    
+    width: 30%;
+justify-content: left;
+    height: 100px;
+}
+#input{
+    border: 1px solid;
+    height: 300px;
+    /* width: 400px; */
+
+}
+#output{
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    font-style: tahoma;
+    
+    
+    color: cornsilk;
+
+}
+
+#select,#select_2{
+    font-style: tahoma;
+    padding: 5px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#out{
+    
+    font-size: 40px;
+}
+#trans{
+    background-color: burlywood;
+    cursor: pointer;
+    padding: 5px;
+}
+#input_text{
+    margin-top: 10px;
+    height: 256px;
+
+
+}
+
+@media (min-width: 300px) and (max-width: 665px) { 
+    #navbar{
+        display: flex;
+        font-family: tahoma;
+        font-size:20px;
+        color: rgb(243, 82, 19);
+        background-color: rgb(29, 154, 182);
+        border: 10px ridge slategray;
+        height: 100px;
+        /* justify-content: center; */
+    }
+    .name{
+        margin-left: 10%;
+    
+        
+
+ }
+}
+
+@media (min-width: 300px) and (max-width: 537px) { 
+    #navbar{
+        display: flex;
+        font-family: tahoma;
+        font-size:15px;
+        color: rgb(243, 82, 19);
+        background-color: rgb(29, 154, 182);
+        border: 10px ridge slategray;
+        height: 100px;
+        /* justify-content: center; */
+    }
+    .name{
+        margin-left: 10%;
+    
+        
+
+ }
+ 
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid gray;
+    padding: 20px;
+    background-color: thistle;
+    
+    justify-content: center;
+
+    
+   
+}
+#input{
+    /* border: 1px solid; */
+    height: 300px;
+    /* width: 400px; */
+
+}
+#output{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 400px;
+    font-style: tahoma;
+    
+    
+    color: cornsilk;
+
+}
+
+#container{
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid gray; */
+    padding: 20px;
+    background-color: thistle;
+    
+    justify-content: center;
+
+    
+   
+}
+
+}
